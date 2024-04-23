@@ -50,10 +50,10 @@ elif exam < 0:
 else:
     st.info(f'You need to make {exam} on the final exam in order to earn {goal_letter} for the course.')
 
-grade_no_drop = 0.1*cp + 0.18*q + 0.18*t1 + 0.18*t2 + 0.18*t3 + 0.18*exam
+# grade_no_drop = 0.1*cp + 0.18*q + 0.18*t1 + 0.18*t2 + 0.18*t3 + 0.18*exam
 
-grade_drop = 0.1*cp + 0.18*q + 0.18*test_sum_drop_lowest + 0.36*exam
+# grade_drop = 0.1*cp + 0.18*q + 0.18*test_sum_drop_lowest + 0.36*exam
 
-st.write(f'Grade with no drop is {grade_no_drop}')
+# st.write(f'Grade with no drop is {grade_no_drop}')
 
-st.write(f'Grade with drop is {grade_drop}')
+# st.write(f'Grade with drop is {grade_drop}')
