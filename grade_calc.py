@@ -11,7 +11,7 @@ t2 = st.number_input('Input your Test 2 grade', format='%g', step=0.1)
 
 t3 = st.number_input('Input your Test 3 grade', format='%g', step=0.1)
 
-q = st.number_input('Input your Quiz total', format='%g', step=0.1)
+q = st.number_input('Input your Quizzes total', format='%g', step=0.1)
 
 cp = st.number_input('Input your Class Performance grade', format='%g', step=0.1)
 
